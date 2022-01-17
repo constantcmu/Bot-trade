@@ -38,6 +38,21 @@ def signals():
 
     notify.send(message)
 
+    # รับสัญญาณ
+    
+    from BINANCE_TRADE import buy , sell
+
+    if trade_side == "OPEN LONG" and leverage == 0: # if leverage = 0 => trade spot
+        buy(symbol=symbol,amount_coin=amount_coin) # ซื้อแบบ market
+    
+    elif BINANCE_TRADE == "TPSL LONG" and leverage == 0: # if leverage = 0 => trade spot
+        sell(symbol=symbol,amount_coin=amount_coin) # ขายแบบ takeprofit stoploss
+
+
+
+
+
+
 
     return "200" #ถ้าโอเคจะส่งตัวเลข 200 
 
