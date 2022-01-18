@@ -44,7 +44,7 @@ def sell(symbol,amount_coin):
 
 
 if __name__ == "__main__":
-    # amount = 0.044
-    # sym = "BNBBUSD"
+    amount = 0.044
+    sym = "BNBBUSD"
     # buy(symbol=sym,amount_coin=amount)
     # sell(symbol=sym,amount_coin=amount)
