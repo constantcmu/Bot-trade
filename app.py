@@ -56,6 +56,7 @@ def signals():
 
     return "200" #ถ้าโอเคจะส่งตัวเลข 200 
 
-
-if __name__=="__main__":
+if __name__="__main__":
     app.run()
+
+ 
